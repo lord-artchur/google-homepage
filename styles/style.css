@@ -1,0 +1,21 @@
+/* Styling for Logo. */
+
+.logo {
+    font-family: arial,sans-serif;
+    font-size: small;
+    color: #222;
+    position: relative;
+    display: inline-block;
+    height: 220px;
+    width: 527px;
+}
+/* Styling for nav bar. */
+nav {
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+}
