@@ -1,16 +1,26 @@
+/* Set up of grid template for page. Class is page. */
+
+.wrapper {
+    display: grid;
+    grid: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 2fr 1fr 1fr;
+    gap: 1em;
+}
 /* Styling for Logo. */
 
 .logo {
     font-family: arial,sans-serif;
     font-size: small;
     color: #222;
-    position: relative;
     display: inline-block;
-    height: 220px;
-    width: 527px;
+    height: 92px;
+    width: 272px;
+    grid-row: 3/ span 3;
+    grid-column: 3/ span 3;
+    justify-items: center;
+    align-items: center;
 }
 /* Styling for nav bar. */
-nav {
+a.link.nav {
     font-size: 13px;
     font-family: arial,sans-serif;
     text-decoration: none;
@@ -19,3 +29,58 @@ nav {
     color: #000;
     opacity: 0.75;
 }
+
+a.link.nav.googleapps {
+    font-size: 13px;
+    white-space: nowrap;
+    line-height: normal;
+    text-align: left;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.55;  
+}
+/* Test Cells */
+
+.cell {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+    display: inline-block;
+  }
+  .cell-1 {
+    background: deepskyblue;
+  }
+  .cell-2 {
+    background: orangered;
+  }
+  .cell-3 {
+    background: royalblue;
+  }
+  .cell-4 {
+    background: gold;
+  }
+  .cell-5 {
+    background: blueviolet;
+  }
+  .cell-6 {
+    background: limegreen;
+  }
+  .cell-7 {
+    background: coral;
+  }
+  .cell-8 {
+    background: lightseagreen;
+  }
+  .cell-9 {
+    background: maroon;
+  }
