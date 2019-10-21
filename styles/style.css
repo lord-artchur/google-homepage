@@ -17,15 +17,18 @@ body {
 }
 /* Styling for Logo. */
 
+.searcharea {
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
   font-family: arial, sans-serif;
   font-size: small;
   color: #222;
-  display: inline-block;
+  display: block;
   height: 92px;
   width: 272px;
-  grid-row: 2 / 2;
-  grid-column: 3 / span 3;
   justify-items: center;
   align-items: center;
 }
@@ -59,16 +62,16 @@ a.link.nav.googleapps {
   opacity: 0.55;
 }
 
-a.link.nav.end {
+.end {
   justify-content: flex-end;
 }
 
-a.link.nav.start {
+.start {
   justify-content: flex-start;
 }
 /* Styling for Ender Links */
 
-#enderlinks {
+.enderlinks {
   visibility: visible;
   line-height: 40px;
   font-size: 13px;
@@ -90,6 +93,16 @@ a.link.nav.start {
   font-size: 15px;
 }
 
+.footer {
+  font-family: arial, sans-serif;
+  visibility: visible;
+  line-height: 40px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.54);
+  padding-left: 27px;
+  margin-left: 30px;
+  text-align: left;
+}
 /* Header Grid Control */
 
 header {

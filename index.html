@@ -5,73 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Google</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <!-- <link rel="stylesheet" href="styles/style.css" /> -->
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
 
   <body>
+    <!-- Navagation Bar -->
     <header>
-      <a
-        href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header"
-        class="link nav start"
-        >About</a
-      >
-      <a
-        href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042"
-        class="link nav start"
-        >Store</a
-      >
-      <a
-        href="https://mail.google.com/mail/?tab=wm&ogbl"
-        class="link nav end"
-        style="text-align: right"
-        >Gmail</a
-      >
-      <a
-        href="https://www.google.ca/imghp?hl=en&tab=wi&ogbl"
-        class="link nav end"
-        style="text-align: right"
-        >Images</a
-      >
-      <a
-        href="https://www.google.ca/intl/en/about/products?tab=wh"
-        class="link nav googleapps end"
-        style="text-align: right"
-      ></a>
-      <a
-        href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.ca/"
-        class="link nav end"
-        ><img src="" alt="" sizes="" srcset=""
-      /></a>
+      <ul>
+        <li>
+          <a
+            href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header"
+            class="nav navleft"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042"
+            class="nav navleft"
+            >Store</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://mail.google.com/mail/?tab=wm&ogbl"
+            class="nav navright"
+            >Gmail</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.google.ca/imghp?hl=en&tab=wi&ogbl"
+            class="nav navright"
+            >Images</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.google.ca/intl/en/about/products?tab=wh"
+            class="nav navright"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.ca/"
+            class="nav navright signin"
+            >Sign In</a
+          >
+        </li>
+      </ul>
     </header>
-    <div>
-      <img
-        class="logo"
-        src="https://www.google.ca/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-      />
-    </div>
-    <div class="search">
-      <form action="" class="searchbar">
-        <input type="text" />
-      </form>
-    </div>
-    <div id="canada">
-      <p>Canada</p>
-    </div>
-    <div id="enderlinks">
-      <a
-        href="https://www.google.ca/intl/en_ca/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
-        >Advertising</a
-      >
-      <a
-        href="https://www.google.ca/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
-        >Business</a
-      >
-      <a href="https://google.com/search/howsearchworks/?fg=1"
-        >How Search Works</a
-      >
-      <a href="https://policies.google.com/privacy?fg=1">Privacy</a>
-      <a href="https://policies.google.com/terms?fg=1">Terms</a>
-      <a href="https://www.google.ca/preferences?hl=en">Settings</a>
-    </div>
+    <!-- Search Area -->
+    <main>
+      <div class="logo">
+        <img
+          src="https://www.google.ca/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        />
+        <form action="" class="searchbar">
+          <input type="text" />
+        </form>
+      </div>
+      <div class="buttons">
+        <input
+          type="submit"
+          value="Google Search"
+          aria-label="Google Search"
+          id="btn"
+        />
+        <input
+          type="submit"
+          value="I'm Feeling Lucky"
+          aria-label="I'm Feeling Lucky"
+          id="btn2"
+        />
+      </div>
+    </main>
+    <!-- Footer Area -->
+    <footer>
+      <div class="footertop">
+        Canada
+      </div>
+      <div class="bfooter">
+        <ul>
+          <li>
+            <a
+              class="bfooter fleft"
+              href="https://www.google.ca/intl/en_ca/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+              >Advertising</a
+            >
+          </li>
+          <li>
+            <a
+              class="bfooter fleft"
+              href="https://www.google.ca/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
+              >Business</a
+            >
+          </li>
+          <li>
+            <a
+              class="bfooter fleft"
+              href="https://google.com/search/howsearchworks/?fg=1"
+              >How Search Works</a
+            >
+          </li>
+          <li>
+            <a
+              class="bfooter fright"
+              href="https://policies.google.com/privacy?fg=1"
+              >Privacy</a
+            >
+          </li>
+          <li>
+            <a
+              class="bfooter fright"
+              href="https://policies.google.com/terms?fg=1"
+              >Terms</a
+            >
+          </li>
+          <li>
+            <a
+              class="bfooter fright"
+              href="https://www.google.ca/preferences?hl=en"
+              >Settings</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

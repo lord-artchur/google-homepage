@@ -1,0 +1,139 @@
+body {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+header {
+}
+
+main {
+}
+
+footer {
+}
+
+.nav {
+  font-size: 13px;
+  padding: 15px;
+  opacity: 0.75;
+  text-decoration-line: none;
+  text-decoration-color: black;
+  text-decoration-style: solid;
+  color: black;
+  position: ;
+  width: auto;
+}
+
+.navleft {
+}
+
+.navright {
+  float: right;
+}
+
+.signin {
+  color: #222;
+  font-size: 13px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: arial, sans-serif;
+  display: inline;
+  line-height: 28px;
+  padding: 0 12px;
+  border-radius: 2px;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+  cursor: default;
+  text-decoration: none;
+  color: #fff;
+  opacity: 1;
+}
+
+.footertop {
+  font-size: 15px;
+  padding: 15px;
+  opacity: 0.75;
+  text-decoration-line: none;
+  text-decoration-color: black;
+  text-decoration-style: solid;
+  color: black;
+}
+
+.bfooter {
+  font-size: 15px;
+  padding: 15px;
+  opacity: 0.75;
+  text-decoration-line: none;
+  text-decoration-color: black;
+  text-decoration-style: solid;
+  color: black;
+}
+
+.fleft {
+}
+
+.fright {
+}
+
+.buttons {
+  font-size: small;
+  padding-top: 18px;
+  position: relative;
+  top: 53px;
+  width: 487px;
+  z-index: 0;
+  height: 70px;
+  font-family: arial, sans-serif;
+  color: #222;
+  font-size: small;
+}
+
+.searchbar {
+}
+#btn {
+  border-radius: 4px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+#btn2 {
+  border-radius: 4px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
