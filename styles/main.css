@@ -3,36 +3,43 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+}
+
 ul {
   list-style-type: none;
 }
 
 li {
-  display: inline-block;
+  display: inline;
 }
 
 header {
 }
 
 main {
+  padding-top: 250px;
+  text-align: center;
 }
 
 footer {
 }
 
 .nav {
-  font-size: 13px;
+  font-size: 15px;
   padding: 15px;
   opacity: 0.75;
   text-decoration-line: none;
   text-decoration-color: black;
   text-decoration-style: solid;
   color: black;
-  position: ;
-  width: auto;
 }
 
 .navleft {
+  float: left;
 }
 
 .navright {
@@ -79,16 +86,28 @@ footer {
   color: black;
 }
 
+.canada {
+  font-family: arial, sans-serif;
+  visibility: visible;
+  line-height: 40px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  padding-left: 27px;
+  margin-left: 30px;
+  text-align: left;
+}
+
 .fleft {
+  float: left;
 }
 
 .fright {
+  float: right;
 }
 
 .buttons {
   font-size: small;
-  padding-top: 18px;
-  position: relative;
+  margin: 0 auto;
   top: 53px;
   width: 487px;
   z-index: 0;
@@ -99,6 +118,10 @@ footer {
 }
 
 .searchbar {
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  width: 487px;
 }
 #btn {
   border-radius: 4px;
