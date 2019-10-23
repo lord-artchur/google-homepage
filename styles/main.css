@@ -1,12 +1,6 @@
-body {
-  position: relative;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .wrapper {
   width: 100%;
   margin: 0 auto;
-  background: #fff;
 }
 
 ul {
@@ -21,11 +15,9 @@ header {
 }
 
 main {
-  padding-top: 250px;
+  padding-top: 300px;
+  padding-bottom: 100px;
   text-align: center;
-}
-
-footer {
 }
 
 .nav {
@@ -66,6 +58,16 @@ footer {
   opacity: 1;
 }
 
+footer {
+  background-color: rgb(242, 242, 242);
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid rgb(228, 228, 228);
+}
+
 .footertop {
   font-size: 15px;
   padding: 15px;
@@ -74,27 +76,29 @@ footer {
   text-decoration-color: black;
   text-decoration-style: solid;
   color: black;
+  text-align: left;
 }
 
 .bfooter {
   font-size: 15px;
   padding: 15px;
-  opacity: 0.75;
   text-decoration-line: none;
   text-decoration-color: black;
   text-decoration-style: solid;
   color: black;
+  opacity: 0.75;
+  background-color: rgb(242, 242, 242);
 }
 
 .canada {
   font-family: arial, sans-serif;
-  visibility: visible;
-  line-height: 40px;
+  line-height: 14px;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.54);
-  padding-left: 27px;
-  margin-left: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
   text-align: left;
+  border-bottom: 1px solid rgb(228, 228, 228);
 }
 
 .fleft {
@@ -105,6 +109,7 @@ footer {
   float: right;
 }
 
+/* Search and Logo Area */
 .buttons {
   font-size: small;
   margin: 0 auto;
@@ -116,7 +121,6 @@ footer {
   color: #222;
   font-size: small;
 }
-
 .searchbar {
   padding: 10px;
   margin: 0 auto;
